@@ -1,8 +1,8 @@
 applications:
-- name: Kitura-Starter
+- name: NewAppName
   memory: 256M
   instances: 1
   random-route: true
   disk_quota: 1024M
-  command: Kitura-Starter
+  command: NewAppName
   buildpack: swift_buildpack
